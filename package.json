@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/nalbion/node-oracledb-lambda-test#readme",
   "dependencies": {
-    "oracledb": "^1.9.3"
+    "oracledb": "3.1.2"
   }
 }
