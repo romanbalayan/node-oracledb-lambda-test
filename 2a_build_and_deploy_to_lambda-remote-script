@@ -4,7 +4,7 @@
 NODE_VERSION=$(node --version)
 if [[ "${NODE_VERSION}" != "v10.16.3" ]]; then
   sudo yum -y install gcc44 gcc-c++ libgcc44 cmake git
-  wget http://nodejs.org/dist/latest-v10.x/node-v10.16.3.tar.gz
+  wget https://nodejs.org/dist/v10.16.3/node-v10.16.3.tar.gz
   tar -zxvf node-v10.16.3.tar.gz
   cd node-v10.15.3 && ./configure && make
   sudo make install
