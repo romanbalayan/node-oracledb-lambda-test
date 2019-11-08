@@ -18,6 +18,7 @@ cd node-oracledb-lambda-test
 # Install Oracle Instant Client "Basic" and "SDK"
 sudo mkdir /opt/oracle
 sudo unzip oracle-instant-client/instantclient-basic-linux.x64-12.1.0.2.0.zip -d /opt/oracle
+sudo unzip oracle-instant-client/instantclient-basiclite-linux.x64-12.1.0.2.0.zip -d /opt/oracle
 sudo unzip oracle-instant-client/instantclient-sdk-linux.x64-12.1.0.2.0.zip -d /opt/oracle
 export OCI_LIB_DIR=/opt/oracle/instantclient_12_1
 export OCI_INC_DIR=/opt/oracle/instantclient_12_1/sdk/include
