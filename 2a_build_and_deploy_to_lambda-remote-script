@@ -44,7 +44,8 @@ zip app.zip index.js package.json \
     lib/libnnz12.so \
     lib/libons.so \
     lib/libociicus.so \
-    lib/libaio.so.1
+    lib/libaio.so.1 \
+    lib/libociei.so
 
 # 104 MB - contains error messages in many languages
 #    lib/libociei.so \
